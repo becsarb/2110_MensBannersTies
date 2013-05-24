@@ -1,0 +1,273 @@
+/**
+ * User: u029337
+ * Date: 5/20/13
+ * Time: 4:17 PM
+ * Description:  Men's 2013 Dress Shirts Banner
+ */
+
+#Mens2013TiesBanner {
+    position: relative;
+    height: 479px;
+    width: 743px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    overflow: hidden;
+}
+
+#Mens2013Ties {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+div.TiesToSuitManualHover, div.TiesSWSToSuitManualHover {
+    position: absolute;
+    left: 25px;
+    top: 5px;
+    width: 132px;
+    height: 22px;
+    background-position: 0px 0px;
+    z-index: 9999;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    cursor: pointer
+}
+
+div.TiesRightArrowHover, div.TiesSWSRightArrowHover {
+    position: absolute;
+    left: 701px;
+    top: 223px;
+    width: 34px;
+    height: 36px;
+    z-index: 9999;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-position: 0px -156px;
+    cursor: pointer
+}
+
+#Mens2013StyleWithShirts {
+    position: absolute;
+    left: 962px;
+    top: 0px;
+    display: none;
+}
+
+
+div.TiesFacebookHover, div.TiesSWSFacebookHover {
+    position: absolute;
+    left: 159px;
+    top: 7px;
+    width: 18px;
+    height: 22px;
+    z-index: 9999;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-position: 0px -53px;
+    cursor: pointer
+}
+
+div.TiesTwitterHover, div.TiesSWSTwitterHover {
+    position: absolute;
+    left: 179px;
+    top: 7px;
+    width: 18px;
+    height: 16px;
+    z-index: 9999;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-position: 0px -87px;
+    cursor: pointer
+}
+
+div.TiesPinterestHover, div.TiesSWSPinterestHover {
+    position: absolute;
+    left: 199px;
+    top: 7px;
+    width: 18px;
+    height: 16px;
+    z-index: 9999;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-position: 0px -119px;
+    cursor: pointer
+}
+
+div.TiesLeftArrowHover, div.TiesSWSLeftArrowHover {
+    position: absolute;
+    left: 6px;
+    top: 223px;
+    width: 34px;
+    height: 36px;
+    z-index: 9999;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-position: 0px -210px;
+    cursor: pointer
+}
+
+#slot_machine{
+	display: none;
+	position: absolute;
+	left:0px;
+	top:0px;
+
+}
+
+#SlotsContainer{
+	position: absolute;
+	overflow:hidden;
+	left:63px;
+	top:140px;
+	width:600px;
+	height:237px;
+	z-index: 8100;
+}
+
+.slots {
+	position: relative;
+	overflow:hidden;
+	width:200px;
+	height:4000px;
+	float:left;
+}
+
+#SpinningImage1{
+	background-position:0px -5px;
+}
+#SpinningImage2{
+	background-position:0px -240px;
+}
+#SpinningImage3{
+	background-position:0px -475px;
+}
+#SpinningImage4{
+	background-position:0px -710px;
+}
+
+#SpinningImage5{
+	background-position:-205px -5px;
+}
+#SpinningImage6{
+	background-position:-205px -240px;
+}
+#SpinningImage7{
+	background-position:-205px -475px;
+}
+#SpinningImage8{
+	background-position:-205px -710px;
+}
+
+
+#SpinningImage9{
+	background-position:-408px -5px;
+}
+#SpinningImage10{
+	background-position:-408px -240px;
+}
+#SpinningImage11{
+	background-position:-408px -475px;
+}
+#SpinningImage12{
+	background-position:-408px -710px;
+}
+
+#SlotsDescriptionTitleA{
+	background-position:0px 0px;
+	position:absolute;
+	height:20px;
+    top:385px;
+    left:68px;
+    cursor: pointer;
+}
+
+#SlotsDescriptionTitleB{
+	background-position:-210px 0px;
+	position:absolute;
+	height:20px;
+    top:385px;
+    left:279px;
+    z-index: 8200;
+    cursor: pointer;
+}
+
+#SlotsDescriptionTitleC{
+	background-position:-430px 0px;
+	position:absolute;
+	height:20px;
+    top:385px;
+    left:482px;
+    z-index: 8200;
+    cursor: pointer;
+}
+
+#SlotsFullDescriptionA{
+	position:absolute;
+    top:410px;
+    left:68px;
+    z-index: 8200;
+}
+
+#SlotsFullDescriptionB{
+	position:absolute;
+    top:410px;
+    left:279px;
+    z-index: 8200;
+}
+
+#SlotsFullDescriptionC{
+	position:absolute;
+    top:410px;
+    left:495px;
+    z-index: 8200;
+}
+
+#FullDescription1{
+	background-position:0px -25px;
+}
+#FullDescription2{
+	background-position:0px -93px;
+}
+#FullDescription3{
+	background-position:0px -163px;
+}
+#FullDescription4{
+	background-position:0px -233px;
+}
+
+#FullDescription5{
+	background-position:-210px -25px;
+}
+#FullDescription6{
+	background-position:-210px -93px;
+}
+#FullDescription7{
+	background-position:-210px -163px;
+}
+#FullDescription8{
+	background-position:-210px -233px;
+}
+
+#FullDescription9{
+	background-position:-430px -25px;
+}
+#FullDescription10{
+	background-position:-430px -93px;
+}
+#FullDescription11{
+	background-position:-430px -163px;
+}
+#FullDescription12{
+	background-position:-430px -233px;
+}
+
